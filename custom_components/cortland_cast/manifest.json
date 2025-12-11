@@ -1,0 +1,14 @@
+{
+  "domain": "cortland_cast",
+  "name": "Cortland Cast",
+  "version": "0.6.0",
+  "documentation": "https://github.com/csilvertooth/cortland_cast#readme",
+  "issue_tracker": "https://github.com/csilvertooth/cortland_cast/issues",
+  "codeowners": ["@csilvertooth"],
+  "authors": ["Chris Silvertooth"],
+  "config_flow": true,
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "loggers": ["custom_components.cortland_cast"],
+  "requirements": []
+}
