@@ -1,0 +1,3 @@
+restart_music:
+  name: Restart Apple Music
+  description: Restart the Apple Music application on the connected Mac.

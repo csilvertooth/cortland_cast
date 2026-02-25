@@ -1,0 +1,41 @@
+{
+  "title": "Cortland Cast (Apple Music Controller)",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to macOS Cortland Cast Server",
+        "description": "Enter the IP/port for your macOS Music controller service.",
+        "data": {
+          "host": "Mac Cortland Cast Server IP or hostname",
+          "port": "Port"
+        }
+      },
+      "reconfigure": {
+        "title": "Update connection",
+        "description": "Change Cortland Controller IP/port."
+      }
+    },
+    "abort": {
+      "already_configured": "This Cortland Cast is already configured."
+    },
+    "error": {
+      "cannot_connect": "Cannot connect",
+      "unknown": "Unknown error"
+    },
+    "progress": {
+      "testing": "Testing connection…"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "data": {
+          "host": "Mac Cortland Cast Server IP/hostname",
+          "port": "Port",
+          "show_panel": "Show Panel"
+        }
+      }
+    }
+  }
+}
